@@ -1,0 +1,15 @@
+# Parameters to be used for the tests
+# Plotter
+drop-points: 10
+name: 'wheel_rear_left'
+xlim: 80
+ylim: 1.1
+
+# Drawbar pull publisher
+force-increment: 10
+interval: 2.0
+max-force: 70
+
+# Slip compliance values
+slip-increment: 0.5
+slip-max: 3.0
