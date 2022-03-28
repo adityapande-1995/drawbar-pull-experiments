@@ -11,5 +11,5 @@ interval: 2.0
 max-force: 70
 
 ## Slip compliance values
-slip-increment: 0.5
+slip-increment: 0.2
 slip-max: 3.0

@@ -22,7 +22,7 @@ with open('summary.md', 'w') as f:
 
     for file_c0, file_c1 in zip(cycle0_files, cycle1_files):
         slip_value = file_c0.replace('temp/cycle0_slip_','').replace('.png', '')
-        f.write('Plowing effect tricycle (left), Normal tricycle (right) , slip compliance : ' + slip_value + '  \n')
+        f.write('Plowing effect tricycle (left), Normal tricycle (right) , **slip compliance : ' + slip_value + '**  \n')
         f.write('![image](' +  file_c0 + '){width=350} ![image](' + file_c1 + '){width=350} \\ \n')
         f.write('\n')
 
